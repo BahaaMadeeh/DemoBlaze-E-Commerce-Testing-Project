@@ -1,0 +1,6 @@
+﻿Parent Requirement Key;Parent Requirement Summary;Requirement Key;Requirement Summary;Requirement Status;Test Key;Test Summary;Test Status;Test Execution Key;TestRun Status;Test Environments;Executed By;Version;Revision;Started On;Finished On;Defect Keys
+;;DM-11;Checkout button enabled when cart is empty;UNCOVERED;;;;;;;;;;;;
+;;DM-10;Checkout allows empty Name field;UNCOVERED;;;;;;;;;;;;
+;;DM-6;Complete Purchase;OK;DM-9;TC-03 Complete Purchase;PASSED;DM-12;PASSED;;Bahaa Madeeh;;;2026-06-08T21:38:01.437Z;2026-06-08T21:39:07.221Z;
+;;DM-5;Add Product to Cart;OK;DM-8;TC-02 Add Product to Cart;PASSED;DM-12;PASSED;;Bahaa Madeeh;;;2026-06-08T21:36:20.674Z;2026-06-08T21:37:21.586Z;
+;;DM-4;User login;OK;DM-7;TC-01 Successful Login;PASSED;DM-12;PASSED;;Bahaa Madeeh;;;2026-06-08T21:31:17.649Z;2026-06-08T21:33:45.523Z;

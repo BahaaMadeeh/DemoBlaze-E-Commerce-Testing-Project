@@ -1,0 +1,9 @@
+Issue Type,Summary,Description,Priority,Labels,Xray Test Type,Requirement ID,Linked Issues
+Story,US-001 User Login,"As a registered customer, I want to log in to my account so that I can purchase products and manage orders.",High,authentication,,REQ-001,
+Story,US-002 Add Product to Cart,"As a customer, I want to add products to my cart so that I can purchase them later.",High,cart,,REQ-002,
+Story,US-003 Complete Purchase,"As a customer, I want to complete checkout so that I can purchase selected products.",Highest,checkout,,REQ-003,
+Test,TC-001 Successful Login,Verify successful login with valid credentials.,High,"login,test",Manual,REQ-001,US-001
+Test,TC-003 Add Product to Cart,Verify product can be added to shopping cart.,High,"cart,test",Manual,REQ-002,US-002
+Test,TC-004 Purchase Product,Verify successful checkout and order placement.,Highest,"checkout,test",Manual,REQ-003,US-003
+Bug,DEF-001 Checkout allows empty Name field,Purchase completes even when Name field is blank.,High,"bug,checkout",,REQ-003,TC-004
+Bug,DEF-002 Empty cart checkout button enabled,Checkout process starts even when cart is empty.,High,"bug,cart",,REQ-002,TC-003
